@@ -1,0 +1,96 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: cursive;
+}
+a {
+ text-decoration: none;
+ color: white;
+}
+li {
+ list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+ background-color:rgb(89, 21, 224);
+ color: #fff;  
+ height:70px;    
+}
+.nav-links a {
+ color: #fff;    
+}
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 1.7em; 
+ font-size: 25px;
+/* change the pos of menu to the left*/  
+/*margin-right: 400px*/   
+}
+.menu li:hover {
+ background-color: #7e7e7e;
+ border-radius: 5px; 
+}
+.menu li {
+ padding: 5px 14px;
+}
+/* DROPDOWN MENU */
+.brand {
+ position: relative;
+}
+.dropdown {
+ background-color:rgb(89, 21, 224);
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 8em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color: #7e7e7e;
+}
+.brand:hover .dropdown {
+ display: block;
+    
+}
+.heart {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }
+  .custom-text {
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    color: white;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0.2); /* شكل خفيف وشفاف */
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.hana {
+    width: 90%;         /* أو 400px مثلاً حسب ما تحب */
+    height: auto;       /* علشان الصورة تحافظ على أبعادها الأصلية */
+    display: block;
+    margin: 20px auto;  /* يخلي الصورة في النص وتحت الكلام بشوية */
+    border-radius: 10px; /* لمسة جمالية اختيارية */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* ظل خفيف */
+}
+
+
+  
